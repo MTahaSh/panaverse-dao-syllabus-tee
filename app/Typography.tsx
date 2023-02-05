@@ -16,7 +16,7 @@ export default function Typography() {
     </Box>
     
     
-    <Image m={"40px"}  textAlign={"center"}  borderRadius={"20px"} src='/The-Learning-Brain.jpg' h={{lg:"240px",md:"35vw",base:"35vw"}}/>
+    <Image m={"40px"}  textAlign={"center"}  borderRadius={"20px"} src='/thelearningbrain.jpg' h={{lg:"240px",md:"35vw",base:"35vw"}}/>
     
     </Flex>
 </Box>
