@@ -23,7 +23,7 @@ export default function navBar() {
                 </Box>
 
                 <Box>
-                    <Button  _hover={{bg:"no-effect"}} fontFamily={"timesnewroman"} color={"white"} bgColor={"#1eb2a6"} fontWeight={"bold"} borderRadius={"0px"} px={"50px"} py={"32px"} > <Link _hover={{textDecoration:"none"}} href='https://portal.piaic.org/signup'>Get Certificate </Link></Button>
+                    <Button  _hover={{bg:"no-effect"}} fontFamily={"timesnewroman"} color={"white"} bgColor={"#93BFCF"} fontWeight={"bold"} borderRadius={"0px"} px={"50px"} py={"32px"} > <Link _hover={{textDecoration:"none"}} href='https://portal.piaic.org/signup'>Get Certificate </Link></Button>
                 </Box>
 
                 

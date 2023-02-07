@@ -23,7 +23,7 @@ export default function Content() {
                         <Card 
                         outline={"solid black"}
                         cursor={"pointer"}
-                        _hover={{bg:"#1eb2a6",color:"white",textDecoration:"none"}}
+                        _hover={{bg:"#6096B4",color:"white",textDecoration:"none"}}
                         mt={"50px"}
                         direction={{ base: 'column', sm: 'row' }}
                         overflow='hidden'
@@ -50,7 +50,7 @@ export default function Content() {
                     <Card
                         outline={"solid black"}
                         cursor={"pointer"}
-                        _hover={{bg:"#1eb2a6",color:"white"}}
+                        _hover={{bg:"#6096B4",color:"white"}}
                         mt={"15px"}
                         direction={{ base: 'column', sm: 'row' }}
                         overflow='hidden'
@@ -77,7 +77,7 @@ export default function Content() {
                     <Card
                         outline={"solid black"}
                         cursor={"pointer"}
-                        _hover={{bg:"#1eb2a6",color:"white"}}
+                        _hover={{bg:"#6096B4",color:"white"}}
                         mt={"15px"}
                         direction={{ base: 'column', sm: 'row' }}
                         overflow='hidden'

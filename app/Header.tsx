@@ -17,7 +17,7 @@ export default function Header() {
         <Flex  px={"0"} py={"5"} w={"100%"} align={"center"} justifyContent={"space-around"} >
 
         {/* Logo */}
-        <Link href='/'><Image src='red-p-logo-text_dao_croped.png' h={"67px"} ></Image></Link>
+        <Link href='/'><Image src='/red-p-logo-text_dao_croped.png' h={"67px"} ></Image></Link>
 
 
 

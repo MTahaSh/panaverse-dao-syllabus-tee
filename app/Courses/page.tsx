@@ -14,7 +14,7 @@ export default function page() {
         <Header/>
         <NavBar/>
         </Box>
-
+        
         <AllCourses/>
         <Footer/>
         <Copyright/>

@@ -1,6 +1,8 @@
 import { Box, Button, ButtonGroup, Divider, Flex, Heading, Link, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
+import { useRouter } from 'next/navigation'
+
 
 function OnClickChange() : string
 {
@@ -11,7 +13,11 @@ function OnClickChange() : string
 
 
 export default function CoursesBlock() {
+  
+  const router = useRouter();
   return (
+  
+
     <Box bgColor={"#f8f8f8"} py={"5"} px={"6"} w={"100%"}>
 
     <Box>
@@ -42,11 +48,12 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#1eb2a6"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue'>
-      <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link>
+      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}} >
+        Learn More...
+      {/* <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link> */}
       </Button>
     </ButtonGroup>
   </CardFooter>
@@ -65,11 +72,12 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#1eb2a6"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue'>
-      <Link _hover={{textDecoration:"none"}}  href={'/Courses'}>Learn More...</Link>
+      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
+      {/* <Link _hover={{textDecoration:"none"}}  href={'/Courses'}>Learn More...</Link> */}
+      Learn More...
       </Button>
     </ButtonGroup>
   </CardFooter>
@@ -89,11 +97,12 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#1eb2a6"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue'>
-      <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link>
+      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
+        Learn More...
+      {/* <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link> */}
       </Button>
     </ButtonGroup>
   </CardFooter>
@@ -113,11 +122,12 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#1eb2a6"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue'>
-      <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link>
+      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
+      Learn More...
+      {/* <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link> */}
       </Button>
     </ButtonGroup>
   </CardFooter>

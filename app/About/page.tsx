@@ -5,6 +5,7 @@ import NavBar from '../Navbar'
 import Header from '../Header'
 import Footer from '../Footer'
 import Copyright from '../Copyright'
+import AboutInfo from './AboutInfo'
 
 export default function page() {
   return (
@@ -13,6 +14,7 @@ export default function page() {
         <Header/>
         <NavBar/>
         </Box>
+        <AboutInfo/>
         <Footer/>
         <Copyright/>
 

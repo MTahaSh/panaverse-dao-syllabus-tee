@@ -8,7 +8,7 @@ import Typography from './Typography'
 export default function Before() {
   return (
     <>
-        <Box bgColor={"#a2c5cc"} w={"100%"} h={"100%"} pb={"140px"}>
+        <Box bgColor={"#6096B4"} w={"100%"} h={"100%"} pb={"140px"}>
 
 
         <Header/>
