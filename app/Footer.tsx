@@ -6,9 +6,12 @@ import { FaPhone } from 'react-icons/fa'
 import { PhoneIcon } from '@chakra-ui/icons'
 import { MdEmail } from 'react-icons/md'
 import SocialMedia from './SocialMedia'
+import { useRouter } from 'next/navigation'
+
 
 function OnClickChange() : string
 {
+
     const Var:string = "https://portal.piaic.org/signup"
 
     return(Var)
@@ -16,12 +19,15 @@ function OnClickChange() : string
 
 
 export default function Footer() {
+  
+  const router = useRouter();
+ 
   return (
     <Box bgColor={"#EEE9DA"}>
         <Flex w={"100%"} alignItems={"center"} textAlign={"center"} justifyContent={"space-between "} flexDirection={{lg:"row",md:"column",base:"column"}}>
 
             <Box mb={{lg:"0px",md:"40px",base:"40px"}}>
-            <Link href='/'><Image src='/red-p-logo-text_dao.png' h={{lg:"250px",md:"200px",base:"200px"}}></Image></Link>
+            <Link onClick={()=>{router.push('/')}} ><Image src='/red-p-logo-text_dao.png' h={{lg:"250px",md:"200px",base:"200px"}}></Image></Link>
             </Box>
                
             <Box display={"flex"} mb={{lg:"0px",md:"50px",base:"50px"}} flexDirection={{lg:"row",md:"column",base:"column"}} textAlign={"center"} lineHeight={{lg:"30px",md:"40px",base:"40px"}}>
