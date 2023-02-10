@@ -22,7 +22,7 @@ export default function DrawerComp() {
   
     return (
       <Box>
-        <Button  ref={btnRef} colorScheme='teal' onClick={onOpen}>
+        <Button  ref={btnRef} bgColor={"#D61355"} _hover={{bgColor:"#D61355"}} colorScheme='teal' onClick={onOpen}>
           <Icon as={HamburgerIcon}/>
         </Button>
         <Drawer
@@ -37,7 +37,7 @@ export default function DrawerComp() {
             <DrawerCloseButton />
             
   
-            <DrawerBody bgColor={"#a2c5cc"}>
+            <DrawerBody bgColor={"#D61355"}>
               <NavbarItems/>
             </DrawerBody>
   

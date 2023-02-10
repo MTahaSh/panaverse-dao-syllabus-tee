@@ -27,7 +27,7 @@ export default function navBar() {
                 </Box>
 
                 
-                <Box display={{ md:"reset", lg:"none"}}   w={"100%"} h={"100%"} py={"9.5px"} bgColor={"rgba(255,255,255,0.1)"}>
+                <Box display={{ md:"reset", lg:"none"}}   w={"100%"} h={"100%"} py={"8.67px"} bgColor={"rgba(255,255,255,0.1)"}>
                     <Flex  px={"5"} py={"1"} w={"100%"} align={"center"} justifyContent={"end"}>
 
                 
