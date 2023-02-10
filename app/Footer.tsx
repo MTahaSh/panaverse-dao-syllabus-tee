@@ -30,13 +30,13 @@ export default function Footer() {
             <Link onClick={()=>{router.push('/')}} ><Image src='/red-p-logo-text_dao.png' h={{lg:"250px",md:"200px",base:"200px"}}></Image></Link>
             </Box>
                
-            <Box display={"flex"} mb={{lg:"0px",md:"50px",base:"50px"}} flexDirection={{lg:"row",md:"column",base:"column"}} textAlign={"center"} lineHeight={{lg:"30px",md:"40px",base:"40px"}}>
+            <Box display={"flex"} fontWeight={"bold"} color={"white"} mb={{lg:"0px",md:"50px",base:"50px"}} flexDirection={{lg:"row",md:"column",base:"column"}} textAlign={"center"} lineHeight={{lg:"30px",md:"40px",base:"40px"}}>
                 <Link href='https://www.piaic.org/' target={"_blank"} mr={{lg:"50px",md:"0px",base:"0px"}}>Piaic</Link>
                 <Link href='#' mr={{lg:"50px",md:"0px",base:"0px"}}>Terms of Service</Link>
                 <Link href='#' mr={{lg:"50px",md:"0px",base:"0px"}}>Privacy Policy</Link>
             </Box>
 
-            <Box lineHeight={"40px"}>
+            <Box color={"white"} lineHeight={"40px"}>
             <HStack ml={{lg:"0px",md:"20px",base:"20px"}} >
             <Icon as={PhoneIcon}/>
             <Text>+92 341 4241484</Text>
