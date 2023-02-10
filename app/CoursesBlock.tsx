@@ -31,14 +31,14 @@ export default function CoursesBlock() {
 
     <Box >
 
-    <Flex   flexWrap={{lg:"wrap",md:"nowrap",base:"nowrap"}} width={"100%"}   justifyContent={{lg:"space-between",md:"center",base:"center"}} pt={"75px"}  pb={"100px"}  flexDirection={{lg:"row",md:"column",base:"column"}}>        
+    <Flex   flexWrap={{lg:"wrap",md:"nowrap",base:"nowrap"}} width={"100%"} alignItems={"center"}  justifyContent={{lg:"space-between",md:"center",base:"center"}} pt={"75px"}  pb={"100px"}  flexDirection={{lg:"row",md:"column",base:"column"}}>        
 
         {/* Card 1 */}
         
-        <Card m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}}  outline={"solid black"} minH={"lg"} maxH={"lg"}  minW='xs' maxW={"xs"} >
-  <CardBody >
+        <Card _hover={{ boxShadow:"0px 8px 16px 0 rgba(0,0,0,.6)"}}  m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}}  outline={"solid black"} minH={"lg"} maxH={"lg"}  minW='xs' maxW={"xs"} >
+  <CardBody  >
     
-    <Stack   pb={"20px"} spacing='2'>
+    <Stack  pb={"20px"} spacing='2'>
       <Heading  mb={"25px"} size='md'>Web 3.0 (Blockchain) and Metaverse Specialization</Heading>
       <Text>
         This Web 3.0 and Metaverse specialization focuses on developing full-stack Web 3.0 and Metaverse experiences for the next generation of the internet by specializing in building worlds that merge the best of cutting-edge decentralized distributed blockchains with 3D metaverse client experiences.
@@ -48,10 +48,10 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#D61355"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}} >
+      <Button variant='outline' colorScheme='blue' onClick={()=>{router.push('/Courses')}} >
         Learn More...
       {/* <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link> */}
       </Button>
@@ -59,7 +59,7 @@ export default function CoursesBlock() {
   </CardFooter>
 </Card>
         {/* Card 2 */}
-        <Card m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}} outline={"solid black"} minH={"lg"} maxH={"lg"} minW='xs' maxW={"xs"}>
+        <Card _hover={{ boxShadow:"0px 8px 16px 0 rgba(0,0,0,.6)"}} m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}} outline={"solid black"} minH={"lg"} maxH={"lg"} minW='xs' maxW={"xs"}>
   <CardBody >
     
     <Stack  pb={"70px"} spacing='2'>
@@ -72,10 +72,10 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#D61355"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
+      <Button variant='outline' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
       {/* <Link _hover={{textDecoration:"none"}}  href={'/Courses'}>Learn More...</Link> */}
       Learn More...
       </Button>
@@ -84,7 +84,7 @@ export default function CoursesBlock() {
 </Card>
 
         {/* Card 3 */}
-        <Card m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}} outline={"solid black"} minH={"lg"} maxH={"lg"} minW='xs' maxW={"xs"}>
+        <Card  _hover={{ boxShadow:"0px 8px 16px 0 rgba(0,0,0,.6)"}} m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}} outline={"solid black"} minH={"lg"} maxH={"lg"} minW='xs' maxW={"xs"}>
   <CardBody >
     
     <Stack   pb={"70px"} spacing='2'>
@@ -97,10 +97,10 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#D61355"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
+      <Button variant='outline' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
         Learn More...
       {/* <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link> */}
       </Button>
@@ -109,7 +109,7 @@ export default function CoursesBlock() {
 </Card>
 
     {/* Card 4 */}
-        <Card  m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}} outline={"solid black"} minH={"lg"} maxH={"lg"} minW='xs' maxW={"xs"}>
+        <Card  _hover={{ boxShadow:"0px 8px 16px 0 rgba(0,0,0,.6)"}} m={{lg:"20px",md:"0px",base:"0px"}} mt={{lg:"0px",md:"20px",base:"20px"}} outline={"solid black"} minH={"lg"} maxH={"lg"} minW='xs' maxW={"xs"}>
   <CardBody >
     
     <Stack  pb={"70px"} spacing='2'>
@@ -122,10 +122,10 @@ export default function CoursesBlock() {
   <Divider />
   <CardFooter>
     <ButtonGroup spacing='2'>
-      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#6096B4"} >
+      <Button variant='solid'  _hover={{bg:"rgba(0,0,0,.7)"}} color={"white"} borderRadius={"7px"} bg={"#D61355"} >
       <Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Apply Now!</Link>
       </Button>
-      <Button variant='ghost' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
+      <Button variant='outline' colorScheme='blue' onClick={()=>{router.push('/Courses')}}>
       Learn More...
       {/* <Link _hover={{textDecoration:"none"}} href={'/Courses'}>Learn More...</Link> */}
       </Button>

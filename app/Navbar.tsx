@@ -17,13 +17,13 @@ export default function navBar() {
         <Box bg={"#b5dde1"} bgColor={"transparent"} w={"96.5%"} h={"120px"}  pb={"20px"} mx={"auto"}>
             <Flex px={"5"} py={"5"} w={"100%"} align={"center"} justifyContent={"space-between"} flexWrap={{xs:"wrap",md:"nowrap",base:"nowrap"}} >
 
-                <Box display={{md:"none",base:"none" ,lg:"reset"}} w={"100%"} h={"100%"} p={"20px"} bgColor={"rgba(255,255,255,0.1)"}>
+                <Box display={{md:"none",base:"none" ,lg:"reset"}} w={"100%"} h={"100%"} p={"20px"} bgColor={"rgba(0,0,0,0.1)"}>
                 {
                     <NavbarItems/>}
                 </Box>
 
                 <Box>
-                    <Button  _hover={{bg:"no-effect"}} fontFamily={"timesnewroman"} color={"white"} bgColor={"#93BFCF"} fontWeight={"bold"} borderRadius={"0px"} px={"50px"} py={"32px"} > <Link _hover={{textDecoration:"none"}} href='https://portal.piaic.org/signup'>Get Certificate </Link></Button>
+                    <Button  _hover={{bg:"no-effect"}} fontFamily={"timesnewroman"} color={"white"} bgColor={"#F94A29"} fontWeight={"bold"} borderRadius={"0px"} px={"50px"} py={"32px"} > <Link _hover={{textDecoration:"none"}} href='https://portal.piaic.org/signup'>Get Certificate </Link></Button>
                 </Box>
 
                 

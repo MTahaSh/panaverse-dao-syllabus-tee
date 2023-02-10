@@ -10,7 +10,7 @@ import AllCourses from '../AllCourses'
 export default function page() {
   return (
     <ChakraProvider>
-         <Box bgColor={"#6096B4"} w={"100%"} h={"100%"} pb={"140px"}>
+         <Box bgColor={"#D61355"} w={"100%"} h={"100%"} pb={"140px"}>
         <Header/>
         <NavBar/>
         </Box>

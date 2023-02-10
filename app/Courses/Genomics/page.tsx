@@ -14,7 +14,7 @@ export default function page() {
   return (
 
     <ChakraProvider>
-    <Box bgColor={"#a2c5cc"} w={"100%"} h={"100%"} pb={"140px"}>
+    <Box bgColor={"#D61355"} w={"100%"} h={"100%"} pb={"140px"}>
         
         
         <Header/>

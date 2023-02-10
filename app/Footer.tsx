@@ -23,7 +23,7 @@ export default function Footer() {
   const router = useRouter();
  
   return (
-    <Box bgColor={"#EEE9DA"}>
+    <Box bgColor={"#FF1E1E"}>
         <Flex w={"100%"} alignItems={"center"} textAlign={"center"} justifyContent={"space-between "} flexDirection={{lg:"row",md:"column",base:"column"}}>
 
             <Box mb={{lg:"0px",md:"40px",base:"40px"}}>
@@ -46,7 +46,7 @@ export default function Footer() {
             <Icon as={MdEmail}/>
             <Text>loremipsum@gmail.com</Text>
             </HStack>
-            <Button mt={"50px"} mb={{lg:"0px",md:"50px",base:"50px"}} ml={{lg:"0px",md:"5px",base:"5px"}} _hover={{bg:"rgba(0,0,0,0.6)"}} color={"white"} bgColor={"#6096B4"}><Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Enroll Now</Link></Button>
+            <Button mt={"50px"} mb={{lg:"0px",md:"50px",base:"50px"}} ml={{lg:"0px",md:"5px",base:"5px"}} _hover={{bg:"rgba(0,0,0,0.6)"}} color={"white"} bgColor={"#D61355"}><Link _hover={{textDecoration:"none"}} target={"_blank"} href={OnClickChange()}>Enroll Now</Link></Button>
 
             </Box>
 

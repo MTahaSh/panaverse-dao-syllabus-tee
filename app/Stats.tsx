@@ -16,7 +16,7 @@ import { FaTwitter } from 'react-icons/fa'
 
 export default function Stats() {
     return (
-        <Box   bg={"#6096B4"}  p={{lg:"5",md:"10px",base:"10px"}}  mx={"auto"}>   
+        <Box   bg={"#D61355"}  p={{lg:"5",md:"10px",base:"10px"}}  mx={"auto"}>   
             <Flex   w={"100%"} h={"100%"} px={"5"} py={{lg:"5",md:"10px",base:"10px"}}   textAlign={{lg:"center",md:"left",base:"left"}} justifyContent={"space-around"} flexDirection={{md:"column",base:"column",lg:"row"}}>
 
             <Stat mt={{lg:"0px",md:"30px",base:"30px"}} color={"white"}>
